@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Chess</title>
+    <style>
+        body {
+            margin-top:80px;
+            margin-bottom: 80px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .header {
+            background-color: aqua;
+            padding: 2px;
+            text-align: center;
+            border-style: double;
+        }
+    </style>
+</head>
+
+<body style=background-color:aquamarine;>
+
+    <div class="header">
+        <h1 style=font-size:75px;>CHESS</h1>
+    </div>
+
+    <p>
+        <font color="black" size="5">Chess is a board game between two players. It is sometimes called Western chess or
+            international chess to
+            distinguish it from related games, such as <b>xiangqi</b> (Chinese chess) and <b>shogi</b> (Japanese chess).
+            The
+            current form of
+            the game emerged in <i>Spain</i> and the rest of Southern Europe during the second half of the 15th century
+            after evolving
+            from <b>chaturanga</b>, a similar but much older game of Indian origin. Today, chess is one of the world's
+            most
+            popular
+            games, played by millions of people worldwide.
+
+            Chess is an abstract strategy game and involves no hidden information. It is played on a chessboard with 64
+            squares
+            arranged in an eight-by-eight grid. At the start, each player controls sixteen pieces: one king, one queen,
+            two
+            rooks, two bishops, two knights, and eight pawns. The player who moves first controls white pieces, and the
+            other
+            controls black pieces. The object of the game is to checkmate the opponent's king, whereby the king is under
+            immediate attack (in "check") and there is no way for it to escape. There are also several ways a game can
+            end
+            in a
+            draw.</font>
+    </p>
+
+    <h2 style="font-size:40px">*Movement of the pieces -</h2>
+
+    <center>
+        <img src="//elzr.com/blag/img/2018/chess-pieces/chess-moves.png" alt="movement of all pieces" height="500"
+            width="800">
+    </center>
+
+</body>
+
+</html>
