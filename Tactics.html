@@ -3,6 +3,17 @@
 <head>
 	<title> Tactics</title>
 	<style type="text/css">
+		body {
+			margin-top: 80px;
+			margin-bottom: 80px;
+			margin-left: 50px;
+			margin-right: 50px;
+			background-image: url("Webpage Background.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+		}
+
 		h1 {
 			font-size: 40;
 			font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,7 +24,7 @@
 			font-size: 25;
 			font-family: Georgia, 'Times New Roman', Times, serif;
 			font-variant: small-caps;
-
+			color: brown
 		}
 
 		p {
@@ -23,7 +34,7 @@
 
 		.column {
 			float: right;
-			width: 50%;
+			width: 40%;
 		}
 
 		/* Clear floats after the columns */
@@ -36,53 +47,73 @@
 </head>
 
 <body>
-	<h1>Chess Tactics | 4 Definitions and Examples</h1>
-	<p>Chess tactics are discussed often, but what is a chess tactic? There are many ways to describe chess tactics, but
-		perhaps the simplest is to say that a chess tactic is a move (or series of moves) that brings an advantage to a
-		player. This advantage can be material, like winning a piece, or even an attack that results in checkmate!
-		Richard Teichmann's famous quote that "Chess is 99% tactics" may not be exactly true, but this sentiment shows
-		the importance of chess tactics. </p>
-
+	<h1 style=font-size:40px;text-align:center;color:lightgray;>Chess Tactics | 4 Definitions and Examples</h1>
+	<hr noshade height="100%">
+	<p align="center">
+		<font color="darkgoldenrod">Chess tactics are discussed often, but what is a chess tactic? There are many ways
+			to describe chess tactics, but
+			perhaps the simplest is to say that a chess tactic is a move (or series of moves) that brings an advantage
+			to a
+			player. This advantage can be material, like winning a piece, or even an attack that results in checkmate!
+			Richard Teichmann's famous quote that "Chess is 99% tactics" may not be exactly true, but this sentiment
+			shows
+			the importance of chess tactics.</font>
+	</p>
+	<hr noshade height="100%">
 	<div class=row>
-		<div style ="float: left;
+		<div style="float: left;
 		width: 50%;">
 			<h3>Discovered Attack/Check: </h3>
-			<p>An attack that happens when one piece moves out of the way, opening a line for another attacking piece to
-				threaten something (either checkmate or material). A discovered check is the same thing, but the
-				revealed piece is attacking the enemy king, so it is also check. When the piece that moves to reveal the
-				hidden attacker also attacks a piece, this may be referred to as a discovered "double" attack/check.</p>
+			<font color=azure>
+				<p align="center">An attack that happens when one piece moves out of the way, opening a line for another
+					attacking
+					piece to
+					threaten something (either checkmate or material). A discovered check is the same thing, but the
+					revealed piece is attacking the enemy king, so it is also check. When the piece that moves to reveal
+					the
+					hidden attacker also attacks a piece, this may be referred to as a discovered "double" attack/check.
+				</p>
 
-			<iframe id="9726121" allowtransparency="true" frameborder="0" style="width:100%;border:none;"
-				src="https://www.chess.com/emboard?id=9726121" height = 500></iframe>
-			<script>window.addEventListener("message", e => { e['data'] && "9726121" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
+				<center><iframe id="9726121" allowtransparency="true" frameborder="0" style="width:50%;border:none;"
+						src="https://www.chess.com/emboard?id=9726121" height=500></iframe>
+					<script>window.addEventListener("message", e => { e['data'] && "9726121" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
 
-			<h3>Fork / Double Attack: </h3>
-			<p>A double attack is an attack or threat on two things at once. The advantage of a double attack is that it
-				is hard to defend two things with one move. We use the term fork to describe a double attack by a single
-				unit, usually a knight, queen, or pawn.</p>
-			<iframe id="9726173" allowtransparency="true" frameborder="0" style="width:100%;border:none;"
-				src="https://www.chess.com/emboard?id=9726173" height = 500></iframe>
-			<script>window.addEventListener("message", e => { e['data'] && "9726173" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
+					<h3>Fork / Double Attack: </h3>
+					<p align="center">A double attack is an attack or threat on two things at once. The advantage of a
+						double attack is
+						that it
+						is hard to defend two things with one move. We use the term fork to describe a double attack by
+						a
+						single
+						unit, usually a knight, queen, or pawn.</p>
+					<center><iframe id="9726173" allowtransparency="true" frameborder="0" style="width:50%;border:none;"
+							src="https://www.chess.com/emboard?id=9726173" height=500></iframe>
+						<script>window.addEventListener("message", e => { e['data'] && "9726173" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
 		</div>
-		<div style ="float: right;
+		<div style="float: right;
 		width: 50%;">
 			<h3>Pin: </h3>
-			<p>When a piece cannot move because it is blocking/guarding a more valuable piece behind it from being
+			<p align="center">When a piece cannot move because it is blocking/guarding a more valuable piece behind it
+				from being
 				captured, that piece is "pinned". A pinning piece is a long-range piece (a rook, queen, or bishop) that
 				is aimed at one of the opponent's valuable pieces, with a less valuable opponent's piece in the way or
 				blocking the rook, queen or bishop from attacking the more valuable piece. An absolute pin is when a
 				piece is pinned to the king, thus making it absolutely illegal to move the pinned piece. </p>
-			<iframe id="9726175" allowtransparency="true" frameborder="0" style="width:100%;border:none;"
-				src="https://www.chess.com/emboard?id=9726175" height = 500></iframe>
-			<script>window.addEventListener("message", e => { e['data'] && "9726175" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
+			<center><iframe id="9726175" allowtransparency="true" frameborder="0" style="width:50%;border:none;"
+					src="https://www.chess.com/emboard?id=9726175" height=550></iframe>
+				<script>window.addEventListener("message", e => { e['data'] && "9726175" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
 
-	<br><br>	<h3>Skewer: </h3>
-			<p>A move that threatens a valuable piece (such as the king or queen), forcing that piece to move away and
-				allowing the attacking piece to take a less valuable piece behind the valuable one. A skewer is the
-				opposite of a pin in many ways since in the skewer the more valuable piece is in front. (See "pin").</p>
-			<br><iframe id="9726173" allowtransparency="true" frameborder="0" style="width:100%;border:none;"
-				src="https://www.chess.com/emboard?id=9726173" height = 500></iframe>
-			<script>window.addEventListener("message", e => { e['data'] && "9726175" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
+				
+				<h3>Skewer: </h3>
+				<p>A move that threatens a valuable piece (such as the king or queen), forcing that piece to move away
+					and
+					allowing the attacking piece to take a less valuable piece behind the valuable one. A skewer is the
+					opposite of a pin in many ways since in the skewer the more valuable piece is in front. (See "pin").
+				</p>
+				</font>
+				<center><iframe id="9726173" allowtransparency="true" frameborder="0" style="width:50%;border:none;"
+						src="https://www.chess.com/emboard?id=9726173" height=550></iframe>
+					<script>window.addEventListener("message", e => { e['data'] && "9726175" === e['data']['id'] && document.getElementById(`${e['data']['id']}`) && (document.getElementById(`${e['data']['id']}`).style.height = `${e['data']['frameHeight'] + 30}px`) });</script>
 		</div>
 	</div>
 </body>
